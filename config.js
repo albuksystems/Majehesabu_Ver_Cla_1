@@ -34,7 +34,7 @@ const CONFIG = {
   // WHATSAPP CONFIGURATION
   // ============================================================================
 
-  WHATSAPP_PHONE: "+254768789382",
+  WHATSAPP_PHONE: "+254715349695",
   WHATSAPP_BUSINESS_NAME: "Joy Water Supplies",
 
   // ============================================================================
