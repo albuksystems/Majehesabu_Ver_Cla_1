@@ -19,7 +19,7 @@ const CONFIG = {
   // ============================================================================
 
   COMPANY_NAME: "Joy Water Supplies",
-  COMPANY_PHONE: "+254768789382",
+  COMPANY_PHONE: "+254715349695",
   COMPANY_EMAIL: "joywatersupplies@gmail.com",
   COMPANY_LOCATION: "Mlolongo, Kenya",
 
