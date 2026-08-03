@@ -12,7 +12,7 @@
 
 const CONFIG = {
   // ✅ Your deployed Apps Script URL - REPLACE SCRIPT_URL with this
-  API_ENDPOINT: "https://script.google.com/macros/s/AKfycbwrhUSgBb4VoSrx2wvU9Nppt-2EYtLmss5KNt5H5Gb-0FLpyGizKBfz86YqQ60B_nftkw/exec",
+  API_ENDPOINT: "https://script.google.com/macros/s/AKfycbxlrgXi-LliKqNANJC8Tlc20EJ-UDEpnXdSw9zWWDm0K2ydBVXx90mhPGti3fNj72ZV/exec",
 
   // ============================================================================
   // COMPANY INFORMATION
