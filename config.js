@@ -19,7 +19,7 @@ const CONFIG = {
   // ============================================================================
 
   COMPANY_NAME: "Joy Water Supplies",
-  COMPANY_PHONE: "+254715349695",
+  COMPANY_PHONE: "+254768789382",
   COMPANY_EMAIL: "joywatersupplies@gmail.com",
   COMPANY_LOCATION: "Mlolongo, Kenya",
 
@@ -34,7 +34,7 @@ const CONFIG = {
   // WHATSAPP CONFIGURATION
   // ============================================================================
 
-  WHATSAPP_PHONE: "+254715349695",
+  WHATSAPP_PHONE: "+254768789382",
   WHATSAPP_BUSINESS_NAME: "Joy Water Supplies",
 
   // ============================================================================
@@ -101,9 +101,10 @@ const CONFIG = {
   // ============================================================================
 
   VALIDATION: {
-    // Phone number format
-    phone_pattern: /^(\+254|0)[0-9]{9}$/,
-    phone_example: "+254768789382",
+    // Phone number format - accepts both +254 and 0 prefix
+    // Examples: +254700000001, 0700000001, 254700000001
+    phone_pattern: /^(\+254|0|254)[0-9]{9}$/,
+    phone_example: "+254700000001 or 0700000001",
 
     // Meter number format (alphanumeric)
     meter_pattern: /^[A-Z0-9-]{5,20}$/,
