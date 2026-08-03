@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MajiHesabu - Customer Portal</title>
-    <script src="config.js"></script>
     <style>
         * {
             margin: 0;
@@ -555,8 +554,8 @@
 
             <form class="login-form" onsubmit="handleLogin(event)">
                 <div class="form-group">
-                    <label for="loginPhone">Phone Number</label>
-                    <input type="tel" id="loginPhone" placeholder="+254 768 789 382" required>
+                    <label for="loginPhone">Phone Number <span style="font-size: 0.8rem; color: #999;">(+254 or 0)</span></label>
+                    <input type="tel" id="loginPhone" placeholder="+254700000001 or 0700000001" required>
                 </div>
 
                 <div class="form-group">
@@ -713,7 +712,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         // Configuration
-       const SCRIPT_URL = CONFIG.API_ENDPOINT;        
+        const SCRIPT_URL = "YOUR_DEPLOYED_GAS_URL_HERE"; // Replace with deployed URL
         let currentCustomer = null;
 
         // ===== AUTHENTICATION =====
