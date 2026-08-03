@@ -27,14 +27,14 @@ const CONFIG = {
   // PAYMENT INFORMATION
   // ============================================================================
 
-  MPESA_TILL: "4984254",
+  MPESA_TILL: "5663845",
   MPESA_BUSINESS_NAME: "Joy Water Supplies",
 
   // ============================================================================
   // WHATSAPP CONFIGURATION
   // ============================================================================
 
-  WHATSAPP_PHONE: "+254768789382",
+  WHATSAPP_PHONE: "+254715349695",
   WHATSAPP_BUSINESS_NAME: "Joy Water Supplies",
 
   // ============================================================================
@@ -42,7 +42,7 @@ const CONFIG = {
   // ============================================================================
 
   WATER_RATE: 100, // KES per unit
-  PAYMENT_DEADLINE_DAYS: 15, // Days until bill is due
+  PAYMENT_DEADLINE_DAYS: 10, // Days until bill is due
   CURRENCY: "KES",
   CURRENCY_SYMBOL: "KES",
 
